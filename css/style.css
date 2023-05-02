@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+}
+
+[class^="col"]{
+   height: 40px;
+   font-size: 1rem;
+   background-color: blue;
+   border: 1px solid white;
+   text-align: center;
+}
+
+div.col-6 [class^="col-"]{
+    background-color: rgb(32, 189, 32);
+    border: 1px solid blue;
+}
+
+div.space-between{
+    height: 30px;
+}
